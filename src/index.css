@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main_div {
+  width: 80%;
+  width: auto;
+  background: rgb(162, 168, 107);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul[data-tabs] {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul[data-tabs] li button {
+  flex: 1;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul[data-tabs] li button.active {
+  background: #0056b3;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+
+  background: #3d0ebd;
+  color: white;
+  border: none;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
